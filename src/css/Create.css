@@ -1,0 +1,42 @@
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.form-container{
+    background: url('../images/bernard-hermant-1nDW7BjBj1s-unsplash.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+.create label {
+    text-align: left;
+    display: block;
+}
+.create h2 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+.create button {
+    background: black;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
